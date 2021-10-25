@@ -6,6 +6,7 @@ let main () =
     if Sys.argv |> Array.length |> ((<>) 3) then
         print_string help_str
     else
-        print_string "OK\n";;
+        print_string ""
+        ;;
 
 let _ = main ();;
